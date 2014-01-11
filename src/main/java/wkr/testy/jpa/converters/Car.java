@@ -15,7 +15,7 @@ public class Car {
     private Color seatsColor;
 
     @Enumerated
-    private Color rearColor;
+    private Color upholsteryColor;
 
     public Car() {
     }
@@ -23,7 +23,7 @@ public class Car {
     public Car(Color color) {
         this.frontColor = color;
         this.seatsColor = color;
-        this.rearColor = color;
+        this.upholsteryColor = color;
     }
 
     public Long getId() {
@@ -50,11 +50,11 @@ public class Car {
         this.seatsColor = seatsColor;
     }
 
-    public Color getRearColor() {
-        return rearColor;
+    public Color getUpholsteryColor() {
+        return upholsteryColor;
     }
 
-    public void setRearColor(Color rearColor) {
-        this.rearColor = rearColor;
+    public void setUpholsteryColor(Color upholsteryColor) {
+        this.upholsteryColor = upholsteryColor;
     }
 }

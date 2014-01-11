@@ -17,7 +17,7 @@ public class CarHack {
 
     private String seatsColor;
 
-    private Integer rearColor;
+    private Integer upholsteryColor;
 
 
     public Long getId() {
@@ -32,7 +32,7 @@ public class CarHack {
         return seatsColor;
     }
 
-    public Integer getRearColor() {
-        return rearColor;
+    public Integer getUpholsteryColor() {
+        return upholsteryColor;
     }
 }
