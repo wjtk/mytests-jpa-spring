@@ -1,0 +1,14 @@
+#eclipse
+.metadata/
+.settings/
+.classpath
+.project
+.factorypath
+
+#idea
+.idea/
+*.iml
+
+#maven
+target/
+dependency-reduced-pom.xml
